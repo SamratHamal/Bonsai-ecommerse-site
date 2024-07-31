@@ -1,0 +1,251 @@
+body
+{
+    background-color: white;
+}
+
+
+.design/*Declaring height width and background color of div*/
+{
+     width: 1680px;
+     height: 125px;
+     background-color: #dcdcdc;
+}
+/*Styling nav bar from here*/
+ul
+{ 
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 20px 60px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    
+}
+
+ul li :hover {
+    background-color: grey;
+}/*for hovering nav bar*/
+
+.lol
+{
+    width:180px;
+    height: auto;
+    position: absolute;
+    top:8px;
+    
+}/*Styling logo*/
+/*Styling the main div*/
+.aboutUS {
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    margin: 40px;
+    font-size: 25px;
+    color:black(255, 255, 255);
+}
+
+.ant
+{
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    width: 1520px;
+    margin: 10rem auto 0 auto;
+    position: absolute;
+    top: 560px;
+    
+}
+
+/*Style to the description  and style to the photo of all member*/
+.ant img
+{
+    height: 250px;
+    width: 250px;
+}
+
+.ant h1
+{
+    position: absolute;
+    left: 45px;
+    margin: 0;
+    color:black(255, 255, 255);
+
+}
+.ant p
+{ position: absolute;
+    color: rgb(14, 10, 10);
+    margin-top: 100px;
+    left: 50px;
+}
+p{
+    font-size: 20px;
+}
+
+.samrat{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    width: 1520px;
+    margin: 10rem auto 0 auto;
+    position: absolute;
+    top:980px;
+    
+}
+.samrat img{
+    height: 250px;
+}
+.samrat h1
+{
+    position: absolute;
+    left: 45px;
+    margin:0;
+    color:black(255, 255, 255);
+
+}
+.samrat p
+{   position: absolute;
+    color: rgb(14, 10, 10);
+    margin-top: 100px;
+    left: 50px;
+}
+.ronit{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    width: 1520px;
+    margin: 10rem auto 0 auto;
+    position: absolute;
+    top: 1400px;
+    
+}
+.ronit img{
+    height: 250px;
+}
+.ronit h1
+{
+    position: absolute;
+    left: 45px;
+    margin:0;
+    color:black(255, 255, 255);
+
+}
+.ronit p
+{ position: absolute;
+    color: rgb(14, 10, 10);
+    margin-top: 100px;
+    left: 50px;
+}
+.nex{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    width: 1520px;
+    margin: 10rem auto 0 auto;
+    position: absolute;
+    
+    
+}
+.nex img{
+    height: 250px;
+}
+.nex h1
+{
+    position: absolute;
+    left: 45px;
+    margin:0;
+    color:black(255, 255, 255);
+
+}
+.nex p
+{ position: absolute;
+  color: rgb(14, 10, 10);
+  margin-top: 100px;
+  left: 50px;
+}
+/*Stylling footer from here*/
+.footer
+{
+    margin-top: 1900px;
+    width: 1175px;
+    height: 180px;
+    padding: 100px 15%;
+    background: #dcdcdc;
+    color: #000;
+    display:flex;
+    
+}
+
+.footer div{
+    text-align: center;;
+}
+.col-2
+{
+    flex-grow: 2;
+}
+
+.footer div h3
+{
+   font-weight: 300;
+   margin-bottom: 30px;
+   letter-spacing: 1px;
+}
+
+.col-1 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+col-3 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+form input
+{
+    width: 400px;
+    height: 45px;
+    border-radius:4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form buttom
+{
+    background:transparent;
+    border: 2px solid #fff;
+    border-radius:30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+    

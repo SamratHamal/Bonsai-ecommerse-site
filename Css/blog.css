@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+  header h1 {
+    margin: 0px;
+  }
+  
+  .design/*Styling nav bar*/
+{
+     width: 1685px;
+     height: 125px;
+     background-color: #dcdcdc;
+}
+  
+ul
+{ 
+float: right;
+list-style-type: none;
+position: absolute;
+top: 50px;
+right: 0px;
+}
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #000;
+padding: 20px 60px;
+border:1px solid transparent;
+transition: 0.6s ease;
+text-align: center;
+background-color: transparent;
+font-size: 20px;
+
+}
+/*For hovering nav bar*/
+ul li :hover {
+background-color: grey;
+}
+
+
+.lol/*Styling logo*/
+{
+width:180px;
+height: auto;
+position: absolute;
+top:10px;
+}
+/*styling content section*/
+  main {
+    text-align: center;
+    float: right;
+  }
+  
+main section {
+    margin: 10px;
+    padding: 30px;
+  }
+  .italic{
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  .slider 
+        {
+        width: 90%;
+        height: 800px;
+        margin: 20px auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 5px 5px 10px black;
+        }
+  
+      img /*Declaring height and width to image*/
+        {
+        width: 100%;
+        height: 100%;
+        }
+
+        .mainpart
+        {
+          bottom: 10px;
+        }
+
+/*Styling footer from here*/
+  footer {
+    background-color: #f4f4f4;
+    padding: 30px;
+    text-align: center;
+  }
+
+
+
+/*Style to footer*/
+ .footer
+{
+    margin-top: 900px;
+    width: 1180px;
+    height: 180px;
+    padding: 100px 15%;
+    background: #dcdcdc;
+    color: #000;
+    display:flex;
+    
+}
+
+.footer div{
+    text-align: center;;
+}
+.col-2
+{
+    flex-grow: 2;
+}
+
+.footer div h3
+{
+   font-weight: 300;
+   margin-bottom: 30px;
+   letter-spacing: 1px;
+}
+
+.col-1 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+col-3 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+form input
+{
+    width: 400px;
+    height: 45px;
+    border-radius:4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form buttom
+{
+    background:transparent;
+    border: 2px solid #fff;
+    border-radius:30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
